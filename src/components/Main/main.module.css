@@ -1,0 +1,280 @@
+.main {
+    width: 1260px;
+    margin: auto;
+}
+hr {
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.WorkspaceContainer {
+    margin: 200px auto 120px;
+    display: block;
+}
+.WorkspaceArticle {
+    display: flex;
+    margin: 0;
+    flex-direction: row-reverse;
+}
+.WorkspaceArticleItem {
+    width: 50%;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.WorkspaceImage {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.WorkspaceTitle {
+    margin: 0;
+    letter-spacing: -0.0315em;
+    font-size: 61px;
+    line-height: 4.0625rem;
+    font-weight: 700;
+    color: rgba(17,17,17,1);
+    width: 100%;
+    height: auto;
+}
+.WorkspaceArticleParagraph {
+    width: 100%;
+    margin: 0.875em 0 .5em 0;
+    max-width: 420px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.0075;
+    color: rgba(0,0,0,0.6);
+}
+.WorkspaceButton {
+    margin: 20px 0 0;
+    width: auto;
+}
+.WorkspaceButonContent {
+    color: #fff;
+    background: #e16259;
+    border: 1px solid #be5643;
+    padding: 6px 12px;
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.WorkspaceButonContent_1 {
+    color: #000;
+    background: transparent;
+    border: 1px solid #000;
+    padding: 6px 12px;
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+    min-width: 160px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.GalleryContainer {
+    margin: 120px 0;
+}
+.EndlesContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.EndlessRight {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.EndlessRight>img {
+    width: 250px;
+}
+.EndlessLeft {
+    width: 55%;
+}
+.EndlessLeftText {
+    max-width: 600px;
+    margin: 0;
+}
+.EndlessTitle {
+    margin: 0;
+    font-size:2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.0236px;
+}
+.AnimationFlexContainer {
+    margin: 60px 0;
+}
+.AnimationFlex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.AnimationRight {
+    width: calc(100% / 4 * 3);
+}
+.AnimationRight>img {
+    width: 100%;
+    border-radius: 12px;
+}
+.AnimationLeft {
+    width: calc(100% / 4);
+    position: relative
+}
+.AnimationNav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+.AnimatinNavItem {
+    margin: 2px 0;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    height: 35px;
+    font-size: 19px;
+    text-align: left;
+    font-weight: 600;
+}
+.LogoWrapper {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.LogoFlex {
+    max-height: 30px;
+    object-fit: contain;
+    display: inline;;
+}
+.LogoFlex>img {
+    height: 30px;
+}
+.FlexContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+figure {
+    padding: 0;
+    margin: 0;
+    max-width: calc((100% - 80px) /3);
+}
+figure>img {
+    max-width: 100%;
+}
+figcaption {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.ThreeFlex {
+    margin: 60px 0;
+}
+.ThreeFlexWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.ThreeItem {
+    padding: 0;
+    margin: 0;
+    max-width: calc((100% - 80px) /3);
+}
+.ThreeLogo {
+    height: 30px;
+    margin: 0;
+    margin-bottom:0.75rem
+}
+.ThreeLogo>img {
+    max-height: 100%;
+    width: 139px;
+}
+blockquote {
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.0075;
+    color: rgba(0,0,0,0.6);
+}
+blockquote::before {
+    content: open-quote;
+}
+blockquote:after {
+    content: close-quote;
+}
+.PersonWrap {
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.PersonFlex {
+    display: flex;
+
+}
+.PersonIcon {
+    width: 60px;
+    height: 60px;
+    margin-right: 3px;
+}
+.PersonIcon>img {
+    max-width: 100%;
+}
+.PersonFlex>h2 {
+    font-size: 14px;
+}
+.PersonTitle {
+    font-size: 14px;
+}
+.Personp {
+    font-size: 14px;
+    margin: 0;
+}
+.TodayContainer {
+    padding-bottom: 100px;
+    margin: 0;
+    position: relative
+}
+.AbsoluteIllustration {
+    display: block;
+    position: absolute;
+    left: 80px;
+    bottom: -120px;
+    width: 300px;
+}
+.AbsoluteIllustration>img {
+    max-width: 100%;
+}
+.TodayText {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.TodayText>img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+.TodayText>p {
+    margin-bottom: 10px;
+}
+.TodayText>h2 {
+    font-size: 2.5rem;
+}
